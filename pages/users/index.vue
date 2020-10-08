@@ -1,10 +1,16 @@
 <template>
+<div>
+
 <p>Enter an id and click submit</p>
-  </template>
+</div>
+</template>
 
 <script>
+
+
 export default {
-  layout : 'use rs'
+  layout : 'users',
+
 }
 </script>
 

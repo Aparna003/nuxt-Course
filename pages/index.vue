@@ -1,6 +1,7 @@
 <template>
   <div class="container">
     <div>
+    / <Header />
      <h1 class="title">Home Page</h1>
      <h2 class="subtitle">Hey this is nuxt/vue homepage</h2>
      <nuxt-link to="/users">Users</nuxt-link>
@@ -9,11 +10,14 @@
 </template>
 
 <script>
-export default {}
+
+export default {
+
+}
 </script>
 
 <style>
-.container {
+ /* .container {
   margin: 0 auto;
   min-height: 100vh;
   display: flex;
@@ -50,5 +54,5 @@ export default {}
 
 .links {
   padding-top: 15px;
-}
+}*/
 </style>
