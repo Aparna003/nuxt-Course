@@ -2,10 +2,10 @@
   <header class="header">
     <ul class="nav-items">
       <li>
-        <nuxt-link to="/" style="text-decoration:none">Home</nuxt-link>
+        <nuxt-link to="/">Home</nuxt-link>
       </li>
       <li>
-        <nuxt-link to="/users" style="text-decoration :none">Users</nuxt-link>
+        <nuxt-link to="/users">Users</nuxt-link>
         </li>
     </ul>
   </header>
@@ -28,5 +28,15 @@
   justify-content: space-around;
   align-items: center;
   width:80%;
+}
+.nav-items a {
+  text-decoration: none;
+  font-weight:600;
+  color:white;
+
+}
+.nav-items a:hover,
+.nav-items a:active {
+   color:blueviolet;
 }
 </style>
